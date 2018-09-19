@@ -19,12 +19,12 @@ body {
 
 .wrapper section {
     flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
 }
 
 .wrapper footer {
     flex: 0 1 auto;
-    padding: 0;
-    margin: 0;
 }
 
 #header {
