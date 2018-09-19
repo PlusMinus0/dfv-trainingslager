@@ -13,6 +13,7 @@
   <body>
       <div id="header">
         <nav>
+	  <li><a href="{{site.baseurl}}">home</a></li>
 	  {% for collection in site.collections %}
 	  {% if collection.label != "posts" %}
 	  <li><a href="{{site.baseurl}}/{{ collection.label }}">{{ collection.label }}</a></li>
