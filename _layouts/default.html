@@ -14,7 +14,7 @@
       <div id="header">
         <nav>
 	  {% for collection in site.collections %}
-	  {% if collections.label != "posts" %}
+	  {% if collection.label != "posts" %}
 	  <li><a href="{{site.baseurl}}{{ collection.label }}">{{ collection.label }}</a></li>
 	  {% endif %}
 	{% endfor %}
