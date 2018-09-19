@@ -10,4 +10,4 @@ layout: default
 [Grundschule Emmertsgrund, Forum 1, 69126 Heidelberg](https://goo.gl/maps/KMHFdjU7pbS2)
 
 ## Anreise ÖPNV
-[Haltestelle Augustinum](www.vrn.de)
+[Haltestelle Augustinum](https://www.vrn.de)
