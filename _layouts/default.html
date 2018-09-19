@@ -15,7 +15,7 @@
         <nav>
 	  {% for collection in site.collections %}
 	  {% if collection.label != "posts" %}
-	  <li><a href="{{site.baseurl}}{{ collection.label }}">{{ collection.label }}</a></li>
+	  <li><a href="{{site.baseurl}}/{{ collection.label }}">{{ collection.label }}</a></li>
 	  {% endif %}
 	{% endfor %}
         </nav>

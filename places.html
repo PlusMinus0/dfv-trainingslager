@@ -1,0 +1,11 @@
+---
+layout: default
+title: Places
+permalink: /places
+---
+<h2>Categories</h2>
+{% for place in site.places %}
+<a href="{{site.baseurl}}{{ place.url }}">
+  <h2>{{ place.title }}</h2>
+</a>
+{% endfor %}
