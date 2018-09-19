@@ -3,6 +3,28 @@
 
 @import "{{ site.theme }}";
 
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wrapper #title {
+    flex: 0 1 auto;
+}
+
+.wrapper #content {
+    flex: 1 1 auto;
+}
+
+.wrapper #footer {
+    flex: 0 1 auto;
+}
+
+
 #header nav {
     background : 0;
 }
