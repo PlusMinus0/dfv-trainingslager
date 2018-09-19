@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Places
+title: Übersicht Trainingsstätten
 permalink: /places
 ---
-<h2>Categories</h2>
+
+<ul>
 {% for place in site.places %}
-<a href="{{site.baseurl}}{{ place.url }}">
-  <h2>{{ place.title }}</h2>
-</a>
+<li><a href="{{site.baseurl}}{{ place.url }}">{{ place.title }}</a></li>
 {% endfor %}
+</ul>
