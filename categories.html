@@ -1,0 +1,16 @@
+---
+layout: default
+title: Categories
+---
+<h1>List</h1>
+{% for collection in site.collections %}
+  {{ collection.label }}
+{% endfor %}
+
+<h1>Categories</h1>
+{% for place in site.places %}
+Hallo Welt
+	<a href="{{site.baseurl}}{{ place.url }}">
+		<h2>{{ place.title }}</h2>
+	  </a>
+{% endfor %}

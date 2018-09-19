@@ -1,0 +1,9 @@
+theme: jekyll-theme-midnight
+
+title: Informationssammlung zu DFV Trainingslagern
+
+collections_dir: collections
+collections:
+  places:
+    output: true
+    permalink: /:collection/:name
