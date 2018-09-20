@@ -1,6 +1,11 @@
 <header>
 	<nav>
-		<ul>
+		<div id="menuToggle">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+		<ul id="menu">
 			<li><a href="{{site.baseurl}}/">Start</a></li>
 			{% for collection in site.collections %}
 			{% if collection.label != "posts" %}
@@ -8,6 +13,7 @@
 			{% endif %}
 			{% endfor %}
 		</ul>
+		</div>
 	</nav>
 	<div id="logo">
 		<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/dfv-logo.png"/></a>
