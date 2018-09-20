@@ -1,0 +1,15 @@
+<header>
+	<nav>
+		<ul>
+			<li><a href="{{site.baseurl}}/">Start</a></li>
+			{% for collection in site.collections %}
+			{% if collection.label != "posts" %}
+			<li><a href="{{site.baseurl}}/{{ collection.label }}">{{ collection.label | capitalize }}</a></li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+	<div id="logo">
+		<a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/images/dfv-logo.png"/></a>
+	</div>
+</header>
