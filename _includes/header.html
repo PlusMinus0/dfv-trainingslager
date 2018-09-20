@@ -6,10 +6,10 @@
 			<span></span>
 			<span></span>
 		<ul id="menu">
-			<li><a href="{{site.baseurl}}/">Start</a></li>
+			<a href="{{site.baseurl}}/"><li>Start</li></a>
 			{% for collection in site.collections %}
 			{% if collection.label != "posts" %}
-			<li><a href="{{site.baseurl}}/{{ collection.label }}">{{ collection.label | capitalize }}</a></li>
+			<a href="{{site.baseurl}}/{{ collection.label }}"><li>{{ collection.label | capitalize }}</li></a>
 			{% endif %}
 			{% endfor %}
 		</ul>
